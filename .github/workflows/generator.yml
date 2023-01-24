@@ -4,6 +4,8 @@ on:
   issues:
   watch:
     types: [started]
+  schedule:
+    - cron: "*/5  * * * *"
 
 jobs:
   build:
