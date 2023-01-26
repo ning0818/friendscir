@@ -1,8 +1,8 @@
 import json, requests 
 
 url = requests.get("https://qexo.lvbyte.top/pub/friends/")  #获取友链
-text = url.text   #解析json数据
-data = json.loads(text)     #获取data数据
+test = url.test   #解析json数据
+data = json.loads(test)     #获取data数据
 data2 = data['data'] #data2为进入json data类中
 
 #以上代码为解析Qexo友链json数据为python数据
