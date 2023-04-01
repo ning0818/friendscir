@@ -1,6 +1,6 @@
 import json, requests 
 
-url = requests.get("https://qexo.lvbyte.top/pub/friends/")  #获取友链
+url = requests.get("https://admin.yuanning0818.tk/pub/friends/")  #获取友链
 text = url.text   #解析json数据
 data = json.loads(text)     #获取data数据
 data2 = data['data'] #data2为进入json data类中
